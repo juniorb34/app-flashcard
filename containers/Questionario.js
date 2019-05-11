@@ -1,5 +1,4 @@
 import React from "react";
-import { NavigationActions } from "react-navigation";
 import { StyleSheet, Text, View, Animated } from "react-native";
 import { connect } from "react-redux";
 import Botao from "../components/Botao";

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavigationActions, View } from "react-navigation";
+import { NavigationActions } from "react-navigation";
 import { addCardDeck } from "../utils/api";
 import { connect } from "react-redux";
 import { addCard } from "../actions";
@@ -8,7 +8,8 @@ import {
   StyleSheet,
   TextInput,
   KeyboardAvoidingView,
-  Text
+  Text,
+  View
 } from "react-native";
 
 class CriarCarta extends Component {
