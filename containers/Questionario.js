@@ -146,7 +146,7 @@ class Questionario extends React.Component {
             <View>
               <Botao
                 styles={styles}
-                text={"Tente Novamente"}
+                text={"Repita"}
                 color={"#E54B4B"}
                 onPress={this.repetir}
               />
@@ -181,7 +181,7 @@ class Questionario extends React.Component {
           {!this.state.showQuestion ? (
             <Info
               style={styles.resposta}
-              text={"Mostrar Resposta"}
+              text={"Ver Resposta"}
               onPress={this.exibirResp}
             />
           ) : (

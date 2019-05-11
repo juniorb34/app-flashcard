@@ -69,9 +69,7 @@ const AppNavigator = createStackNavigator({
     navigationOptions: {
       title: "Adicionar Carta",
       headerTintColor: "#fff",
-      headerStyle: {
-        backgroundColor: "#292477"
-      }
+      headerStyle: { backgroundColor: "#292477" }
     }
   },
   Questionario: {
@@ -79,9 +77,7 @@ const AppNavigator = createStackNavigator({
     navigationOptions: {
       title: "Questionário",
       headerTintColor: "#fff",
-      headerStyle: {
-        backgroundColor: "#292477"
-      }
+      headerStyle: { backgroundColor: "#292477" }
     }
   }
 });

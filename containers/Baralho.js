@@ -20,7 +20,7 @@ class Baralho extends Component {
 
           <Botao
             styles={styles}
-            text={"Adicionar Carta"}
+            text={"Adicionar"}
             color={"#292477"}
             onPress={() =>
               this.props.navigation.navigate("CriarCarta", { entryId: deck })
@@ -28,7 +28,7 @@ class Baralho extends Component {
           />
           <Botao
             styles={styles}
-            text={"Iniciar Questionário"}
+            text={"Iniciar"}
             color={"#E54B4B"}
             onPress={() =>
               this.props.navigation.navigate("Questionario", { entryId: deck })
