@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavigationActions } from "react-navigation";
+import { NavigationActions, View } from "react-navigation";
 import { addCardDeck } from "../utils/api";
 import { connect } from "react-redux";
 import { addCard } from "../actions";

@@ -29,7 +29,7 @@ class Baralhos extends Component {
                 onPress={() =>
                   this.props.navigation.navigate("Baralho", { entryId: deck })
                 }
-                title="Acessar "
+                title="Acessar"
               />
             </View>
           );

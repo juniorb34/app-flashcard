@@ -54,37 +54,33 @@ const TabNavigator = createBottomTabNavigator(
 const AppNavigator = createStackNavigator({
   Home: {
     screen: TabNavigator,
+    navigationOptions: { header: null }
+  },
+  Baralho: {
+    screen: Baralho,
     navigationOptions: {
-      header: null
-    },
-    Baralho: {
-      screen: Baralho,
-      navigationOptions: {
-        title: "Info",
-        headerTintColor: "#fff",
-        headerStyle: {
-          backgroundColor: "#292477"
-        }
+      title: "Info",
+      headerTintColor: "#fff",
+      headerStyle: { backgroundColor: "#292477" }
+    }
+  },
+  CriarCarta: {
+    screen: CriarCarta,
+    navigationOptions: {
+      title: "Adicionar Carta",
+      headerTintColor: "#fff",
+      headerStyle: {
+        backgroundColor: "#292477"
       }
-    },
-    CriarCarta: {
-      screen: CriarCarta,
-      navigationOptions: {
-        title: "Adicionar Carta",
-        headerTintColor: "#fff",
-        headerStyle: {
-          backgroundColor: "#292477"
-        }
-      }
-    },
-    Questionario: {
-      screen: Questionario,
-      navigationOptions: {
-        title: "Questionário",
-        headerTintColor: "#fff",
-        headerStyle: {
-          backgroundColor: "#292477"
-        }
+    }
+  },
+  Questionario: {
+    screen: Questionario,
+    navigationOptions: {
+      title: "Questionário",
+      headerTintColor: "#fff",
+      headerStyle: {
+        backgroundColor: "#292477"
       }
     }
   }

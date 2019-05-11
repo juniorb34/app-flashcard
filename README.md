@@ -1,17 +1,24 @@
-# app-flashcard
+# Aplicativo-Flashcards
 
-Description: This app has a quiz where you can choose correct or incorrect for the aswers. 
+Descrição: Este aplicativo tem um uestionário onde vocêw deve escolher se a resposta dada está certa ou errada.
 
-Instructions:
 
-- Install all project dependencies:
+Pré-requesitos:
+- Para utilizar esta aplicação é necessário ter instalado o Node e NPM e Expo.
+
+Instruções para uso:
+
+- Instalar as dependências do projeto:
 
 ```
 npm install
 ```
 
-- Run projecty in development environment
+- Rodar o projeto
 
 ```
-npm start
+Expo start
+    E
+Abra o aplicativo Expo em seu dispositivo móvel e faça a leitura do código QR.
 ```
+
