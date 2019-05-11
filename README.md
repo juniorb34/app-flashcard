@@ -22,3 +22,4 @@ Expo start
 Abra o aplicativo Expo em seu dispositivo móvel e faça a leitura do código QR.
 ```
 
+O Aplicativo foi testado no Android 8.1.0
