@@ -18,7 +18,7 @@ export function receiveDecks(decks) {
 
 export function addCard(card) {
   return {
-    type: ADD_CARD_TO_DEDCK,
+    type: ADD_CARD_TO_DECK,
     card
   };
 }

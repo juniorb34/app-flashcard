@@ -2,7 +2,8 @@ import React from "react";
 import { StyleSheet, Text, View, Animated } from "react-native";
 import { connect } from "react-redux";
 import Botao from "../components/Botao";
-import { Info } from "../components/Info.js";
+import Info from "../components/Info.js";
+import { NavigationActions } from "react-navigation";
 
 class Questionario extends React.Component {
   state = {
@@ -195,14 +196,14 @@ class Questionario extends React.Component {
             <Botao
               color={"#62A87C"}
               styles={styles}
-              text={"Correto"}
-              onPress={() => this.enviarResp("true")}
+              text={"Certo"}
+              onPress={() => this.enviarResp("certo")}
             />
             <Botao
               color={"#E54B4B"}
               styles={styles}
               text={"Errado"}
-              onPress={() => this.enviarResp("false")}
+              onPress={() => this.enviarResp("errado")}
             />
           </View>
         </View>
