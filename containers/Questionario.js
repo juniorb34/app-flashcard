@@ -135,11 +135,11 @@ class Questionario extends React.Component {
 
             {this.state.correct > this.state.incorrect ? (
               <Animated.View style={rotateStyles}>
-                <Text style={{ fontSize: 90 }}>É</Text>
+                <Text style={{ fontSize: 90 }}>É ISSO!</Text>
               </Animated.View>
             ) : (
               <Animated.View style={rotateStyles}>
-                <Text style={{ fontSize: 90 }}>😭</Text>
+                <Text style={{ fontSize: 75 }}>QUE PENA!</Text>
               </Animated.View>
             )}
 
@@ -197,13 +197,13 @@ class Questionario extends React.Component {
               color={"#62A87C"}
               styles={styles}
               text={"Certo"}
-              onPress={() => this.enviarResp("certo")}
+              onPress={() => this.enviarResp("true")}
             />
             <Botao
               color={"#E54B4B"}
               styles={styles}
               text={"Errado"}
-              onPress={() => this.enviarResp("errado")}
+              onPress={() => this.enviarResp("false")}
             />
           </View>
         </View>
@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     margin: 11,
     borderRadius: 12,
-    backgroundColor: "#f26f28",
+    backgroundColor: "#cceeff",
     alignSelf: "stretch",
     shadowColor: "rgba(0,0,0,0.34)",
     shadowOffset: {

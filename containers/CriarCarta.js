@@ -50,7 +50,9 @@ class CriarCarta extends Component {
             value={this.state.answer}
           />
 
-          <Text style={styles.titulo}>Está certo ou errado?</Text>
+          <Text style={styles.titulo}>
+            Escreva true para certo ou false para errado
+          </Text>
           <TextInput
             style={styles.input}
             onChangeText={correctAnswer => this.setState({ correctAnswer })}
@@ -74,7 +76,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   titulo: {
-    fontSize: 34,
+    fontSize: 27,
     color: "#292477"
   },
   BotaoEnvioTexto: {

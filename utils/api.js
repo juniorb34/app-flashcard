@@ -8,12 +8,12 @@ const initialData = {
       {
         question: "What is React?",
         answer: "A library for managing user interfaces",
-        correctAnswer: "certo"
+        correctAnswer: "true"
       },
       {
         question: "Where do you make Ajax requests in React?",
         answer: "The componentWillMount lifecycle event",
-        correctAnswer: "errado"
+        correctAnswer: "false"
       }
     ]
   },
@@ -24,12 +24,12 @@ const initialData = {
         question: "What is a closure?",
         answer:
           "The combination of a function and the lexical environment within which that function was declared.",
-        correctAnswer: "certo"
+        correctAnswer: "true"
       },
       {
         question: "What is variable",
         answer: "Is a king of function",
-        correctAnswer: "errado"
+        correctAnswer: "false"
       }
     ]
   }
